@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'Test'
+author: 'tungdothanh'
+inputs:
+  myInput:
+    description: ''
+    required: true
+    default: 'Default Input'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
